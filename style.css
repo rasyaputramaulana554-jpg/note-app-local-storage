@@ -1,0 +1,120 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #333;
+}
+
+/* Container utama */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Label */
+label {
+  font-weight: bold;
+  color: #444;
+}
+
+/* Input */
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+/* Input ketika diklik */
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Tombol */
+button {
+  padding: 11px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #3498db;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover tombol */
+button:hover {
+  background: #2980b9;
+}
+
+/* Area data */
+#data-tampil {
+  list-style: none;
+  margin-top: 25px;
+  padding: 0;
+}
+
+/* Setiap data */
+#data-tampil li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: #f8f9fa;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+/* Tombol hapus */
+#data-tampil li button {
+  background: #e74c3c;
+  padding: 7px 12px;
+  font-size: 13px;
+}
+
+#data-tampil li button:hover {
+  background: #c0392b;
+}
+
+/* Tombol hapus semua */
+.btn-delete-all {
+  width: 100%;
+  margin-top: 15px;
+  background: #e74c3c;
+}
+
+.btn-delete-all:hover {
+  background: #c0392b;
+}
